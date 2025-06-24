@@ -17,6 +17,7 @@ dependencies:
   provider: ^6.0.4
   shared_preferences: ^2.0.15
   material_design_icons_flutter: ^5.0.6996
+  lucide_flutter: ^0.303.0 # Added lucide_flutter for icons
   google_fonts: ^3.0.1
   flutter_html: ^2.2.1
   url_launcher: ^6.1.6
