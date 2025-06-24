@@ -1,4 +1,4 @@
-import 'package:boilerplate_ui/views/app_screen.dart';
+import 'package:boilerplate_ui/views/recreated/recreated_home_page.dart'; // Import the new home page
 import 'package:boilerplate_ui/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -51,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     MySize().init(context);
     themeData = Theme.of(context);
-    return AppScreen();
+    // Return the new RecreatedHomePage instead of AppScreen
+    return RecreatedHomePage();
   }
 }
