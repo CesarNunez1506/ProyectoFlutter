@@ -1,0 +1,50 @@
+name: boilerplate_ui
+description: Boilerplate by Dimas Ibnu Malik github.com/dimas-ibnu.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.2.1+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  http: ^0.13.5
+  provider: ^6.0.4
+  shared_preferences: ^2.0.15
+  material_design_icons_flutter: ^5.0.6996
+  google_fonts: ^3.0.1
+  flutter_html: ^2.2.1
+  url_launcher: ^6.1.6
+  shimmer: ^2.0.0
+  image_picker: ^0.8.6
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Logo
+    - assets/images/logo.png
+
+    # Placeholder Images
+    - assets/images/placeholder/no-image.png
+
+    # Images - Illustrations
+    - assets/images/person.jpg
+    - assets/images/banner.png
+    - assets/images/forest.png
+
+    # Images - Categories
+    - assets/images/categories/double_tree.png
+    - assets/images/categories/earth.png
+    - assets/images/categories/love.png
+    - assets/images/categories/pinus.png
